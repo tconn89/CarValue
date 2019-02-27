@@ -32,6 +32,7 @@ Run tests with mocha, the shortcut is
 
 
 #### Examples
+See `curl_test.sh` for an example curl request to this api. Other sample requests are below  
 
 ```bash
 # This request is part of the Happy Path
@@ -66,9 +67,3 @@ Run tests with mocha, the shortcut is
 # Response
 {"value":"0.7312","message":"Car price is 0.7312 times it's original market value"}
 ```
-
-
-## TODO
-
-Split CarValue class into seperate file.  
-Testing each function on CarValue class.  
