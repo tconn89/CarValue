@@ -5,7 +5,9 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "growl": ">=1.10.0",
+    "minimatch": ">=3.0.2"
   },
   "dependencies": {
     "axios": "^0.18.0",
