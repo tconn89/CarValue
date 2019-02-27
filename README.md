@@ -44,12 +44,12 @@ See `curl_test.sh` for an example curl request to this api. Other sample request
 ```
 
 ```bash
-# This request will return 400 status code and error 'No models for Make Nasa'
-# There are no models called Falcon9 for Nasa 
+# This request will return 400 status code and return an error
+# There are no results for Spacex from our 3rd party vehicle gov API
 { make: "SpaceX", model: 'Falcon9', age: 0, owners: 1 }
 
-# This is because our API actually returns a fuzzy searched Make called Nasatka Barrier
-# from the gov database
+# Response
+{"error":"SpaceX is not a valid make"}
 ```
 
 ```bash
